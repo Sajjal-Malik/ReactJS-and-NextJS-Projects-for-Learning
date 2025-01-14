@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-left: 10px;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+/* Center the buttons */
+button+button {
+  margin-left: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: fix;
+  margin-left: 20px;
+}
+
+.stopped-message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: red;
+  text-align: center;
+}
+
+.logs-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logs-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.logs-container li {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #fff;
+}
